@@ -15,7 +15,7 @@ export default function ContactUs() {
     e.preventDefault();
     // Handle form submission here (e.g., send to API endpoint)
     console.log('Form submitted:', formData);
-    alert('Thank you for your message! We\'ll get back to you soon.');
+    alert('Thank you for your message! We will get back to you soon.');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
