@@ -50,7 +50,7 @@ export default function AboutSquaredle() {
                 <li>• <strong>Any direction:</strong> Move horizontally, vertically, or diagonally</li>
                 <li>• <strong>Reuse letters:</strong> Each letter can be used in multiple words</li>
                 <li>• <strong>Minimum length:</strong> Words must be at least 4 letters long</li>
-                <li>• <strong>No repeating:</strong> Don't use the same letter position twice in one word</li>
+                <li>• <strong>No repeating:</strong> Don&apos;t use the same letter position twice in one word</li>
               </ul>
             </div>
 
@@ -75,9 +75,9 @@ export default function AboutSquaredle() {
               <ul className="text-slate-700 space-y-2">
                 <li>• <strong>Start with longer words:</strong> Look for 6+ letter words first</li>
                 <li>• <strong>Common prefixes/suffixes:</strong> Words ending in -ING, -ED, -ER are common</li>
-                <li>• <strong>Use all directions:</strong> Don't just look horizontally and vertically</li>
+                <li>• <strong>Use all directions:</strong> Don&apos;t just look horizontally and vertically</li>
                 <li>• <strong>Think creatively:</strong> Some valid words might surprise you</li>
-                <li>• <strong>Check plurals:</strong> If you find a noun, try adding 'S'</li>
+                <li>• <strong>Check plurals:</strong> If you find a noun, try adding &apos;S&apos;</li>
               </ul>
             </div>
 
@@ -123,7 +123,7 @@ export default function AboutSquaredle() {
             <h2 className="text-xl font-semibold text-slate-800 mt-8 mb-4">Example Grid</h2>
             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-lg p-6 mb-6">
               <div className="text-center mb-4">
-                <p className="text-slate-600 mb-4">Here's an example 4×4 Squaredle grid:</p>
+                <p className="text-slate-600 mb-4">Here&apos;s an example 4×4 Squaredle grid:</p>
                 <div className="inline-grid grid-cols-4 gap-2 bg-white p-4 rounded-lg shadow-sm">
                   {['T', 'E', 'S', 'T'].map((letter, i) => (
                     <div key={i} className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center font-bold text-blue-800">

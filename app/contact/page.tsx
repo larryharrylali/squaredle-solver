@@ -59,7 +59,7 @@ export default function ContactUs() {
               📧 Contact Us
             </h1>
             <p className="text-slate-600 mb-8">
-              Have questions, suggestions, or found a bug? We'd love to hear from you!
+              Have questions, suggestions, or found a bug? We&apos;d love to hear from you!
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -208,7 +208,7 @@ export default function ContactUs() {
                 💡 Tips for Better Support
               </h2>
               <ul className="space-y-2 text-sm text-slate-600">
-                <li>• Be specific about the issue you're experiencing</li>
+                <li>• Be specific about the issue you&apos;re experiencing</li>
                 <li>• Include steps to reproduce bugs</li>
                 <li>• Mention your browser and device type</li>
                 <li>• Attach screenshots if helpful</li>
