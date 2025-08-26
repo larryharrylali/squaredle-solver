@@ -6,7 +6,7 @@ Allow: /
 Crawl-delay: 0
 
 # Sitemap location
-Sitemap: https://squaredlesolver.co/sitemap.xml
+Sitemap: https://www.squaredlesolver.co/sitemap.xml
 
 # Block any private or admin paths (if any exist in future)
 Disallow: /api/
