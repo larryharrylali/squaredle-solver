@@ -1,0 +1,31 @@
+# Robots.txt for Squaredle Solver
+# Allow all crawlers
+
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Sitemap location
+Sitemap: https://squaredlesolver.com/sitemap.xml
+
+# Block any private or admin paths (if any exist in future)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Optimize crawling for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
