@@ -236,7 +236,7 @@ export default function Home() {
               {/* Background decoration */}
               <div className="absolute top-0 left-0 w-20 h-20 bg-blue-100/50 rounded-full blur-2xl"></div>
               
-              <div className="relative flex items-center justify-between mb-6">
+              <div className="relative flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl flex items-center justify-center shadow-md hover:scale-110 transition-transform duration-300">
                     <span className="text-xl">📊</span>
@@ -248,13 +248,13 @@ export default function Home() {
                   </div>
                 </div>
                 {results && (
-                  <div className="relative">
+                  <div className="relative w-full sm:w-auto">
                     <input
                       type="text"
                       placeholder="🔍 Search words..."
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="px-4 py-2 bg-sky-50 border border-sky-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-sky-400 focus:border-transparent transition-all duration-300"
+                      className="w-full sm:w-64 px-4 py-2 bg-sky-50 border border-sky-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-sky-400 focus:border-transparent transition-all duration-300"
                     />
                   </div>
                 )}
