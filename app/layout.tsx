@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://squaredlesolver.com'),
+  metadataBase: new URL('https://squaredlesolver.co'),
   title: "Squaredle Solver - Instant Answers & Word Finder | Free Online",
   description: "Educational Squaredle solver with instant word definitions. Solve puzzles, learn vocabulary, and see word meanings. Fast algorithms find every word with visual paths and dictionary lookup.",
   keywords: "squaredle solver, squaredle cheat, squaredle help, squaredle answers, educational squaredle, word definitions, vocabulary builder, squaredle with meanings, learn words",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Squaredle Solver - Instant Answers & Word Finder",
     description: "Solve any Squaredle puzzle instantly with visual path animations. 100% free, works on all devices.",
-    url: "https://squaredlesolver.com",
+    url: "https://squaredlesolver.co",
     siteName: "Squaredle Solver",
     type: "website",
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://squaredlesolver.com",
+    canonical: "https://squaredlesolver.co",
   },
 };
 
@@ -67,7 +67,7 @@ export default function RootLayout({
               "@type": "WebApplication",
               "name": "Squaredle Solver",
               "description": "Free online Squaredle puzzle solver with visual path animations",
-              "url": "https://squaredlesolver.com",
+              "url": "https://squaredlesolver.co",
               "applicationCategory": "Game",
               "offers": {
                 "@type": "Offer",
