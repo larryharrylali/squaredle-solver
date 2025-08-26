@@ -441,7 +441,7 @@ export default function GridInput({ onGridChange, onSolve, onClear, isLoading, s
       {/* Tips Section */}
       <div className="text-sm text-gray-500 text-center mt-4 space-y-1">
         <p>
-          💡 Get today's puzzle from{' '}
+          💡 Get today&apos;s puzzle from{' '}
           <a 
             href="https://squaredle.app" 
             target="_blank" 

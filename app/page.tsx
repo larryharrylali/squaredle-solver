@@ -174,7 +174,7 @@ export default function Home() {
               Squaredle Solver
             </h1>
             <h2 className="text-xl sm:text-2xl text-slate-600 font-medium mb-6">
-              Solve Today's Squaredle Puzzle in Seconds ⚡
+              Solve Today&apos;s Squaredle Puzzle in Seconds ⚡
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-8">
               Find all hidden words with visual paths and learn new vocabulary along the way.
@@ -355,7 +355,7 @@ export default function Home() {
               </div>
               <h3 className="font-bold text-slate-800 mb-3 group-hover:text-emerald-700 transition-colors duration-300">NEVER MISS A WORD</h3>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Our comprehensive algorithm finds even the most obscure bonus words you'd never think of
+                Our comprehensive algorithm finds even the most obscure bonus words you&apos;d never think of
               </p>
             </div>
             
@@ -434,7 +434,7 @@ export default function Home() {
               className="group inline-flex items-center gap-4 bg-gradient-to-r from-sky-500 to-blue-500 hover:from-sky-600 hover:to-blue-600 text-white px-8 py-4 rounded-2xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 font-semibold text-lg"
             >
               <span className="text-2xl group-hover:animate-bounce">🚀</span>
-              <span className="font-bold">Ready to solve today's puzzle?</span>
+              <span className="font-bold">Ready to solve today&apos;s puzzle?</span>
               <span className="text-2xl group-hover:animate-pulse">✨</span>
             </button>
           </div>
@@ -473,7 +473,7 @@ export default function Home() {
                 <span>How to solve Squaredle puzzle quickly?</span>
               </summary>
               <p className="mt-4 text-slate-600 leading-relaxed pl-10">
-                Simply enter the letters from your Squaredle grid into our solver and click "Solve". 
+                Simply enter the letters from your Squaredle grid into our solver and click &quot;Solve&quot;. 
                 Our lightning-fast algorithm finds all possible words in under 2 seconds, organized by word length.
               </p>
             </details>
@@ -581,7 +581,7 @@ export default function Home() {
                 🚀 More Features Coming
               </h3>
               <p className="text-slate-600 mb-4 text-sm">
-                We're constantly improving Squaredle Solver with new features and enhancements!
+                We&apos;re constantly improving Squaredle Solver with new features and enhancements!
               </p>
               <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-400 to-indigo-400 text-white px-6 py-3 rounded-lg shadow-lg font-semibold">
                 <span className="text-lg">✨</span>

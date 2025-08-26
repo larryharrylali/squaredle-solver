@@ -76,7 +76,7 @@ export default function TermsOfService() {
 
             <h2 className="text-xl font-semibold text-slate-800 mt-8 mb-4">Disclaimer</h2>
             <p className="text-slate-600 mb-6">
-              The information on this website is provided on an "as is" basis. To the fullest extent permitted by law, 
+              The information on this website is provided on an &quot;as is&quot; basis. To the fullest extent permitted by law, 
               Squaredle Solver excludes all representations, warranties, conditions and terms related to our website 
               and use of this website. We do not guarantee the accuracy or completeness of word solutions.
             </p>

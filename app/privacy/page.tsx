@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-slate-800 mt-8 mb-4">Third-Party Services</h2>
             <p className="text-slate-600 mb-4">We use the following third-party services:</p>
             <ul className="text-slate-600 mb-6 space-y-2">
-              <li><strong>Google AdSense:</strong> For displaying advertisements (subject to Google's privacy policy)</li>
+              <li><strong>Google AdSense:</strong> For displaying advertisements (subject to Google&apos;s privacy policy)</li>
               <li><strong>Google Analytics:</strong> For anonymous usage statistics</li>
               <li><strong>Buy Me a Coffee:</strong> For voluntary donations (subject to their privacy policy)</li>
             </ul>
@@ -74,7 +74,7 @@ export default function PrivacyPolicy() {
               We implement appropriate security measures to protect any data we do collect.
             </p>
 
-            <h2 className="text-xl font-semibold text-slate-800 mt-8 mb-4">Children's Privacy</h2>
+            <h2 className="text-xl font-semibold text-slate-800 mt-8 mb-4">Children&apos;s Privacy</h2>
             <p className="text-slate-600 mb-6">
               Our service is suitable for all ages. We do not knowingly collect personal information from children under 13. 
               If you are a parent and believe your child has provided us with personal information, please contact us.
@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-slate-800 mt-8 mb-4">Changes to Privacy Policy</h2>
             <p className="text-slate-600 mb-6">
               We may update this Privacy Policy from time to time. We will notify you of any changes by posting the 
-              new Privacy Policy on this page and updating the "Last updated" date.
+              new Privacy Policy on this page and updating the &quot;Last updated&quot; date.
             </p>
 
             <h2 className="text-xl font-semibold text-slate-800 mt-8 mb-4">Contact Us</h2>

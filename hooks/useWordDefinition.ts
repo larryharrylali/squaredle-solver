@@ -49,12 +49,7 @@ const API_SOURCES = [
 
 async function tryApiSource(source: typeof API_SOURCES[0], word: string): Promise<Definition | null> {
   try {
-    const fetchOptions: RequestInit = {
-      method: 'GET',
-      headers: source.headers || {}
-    };
-    
-    const response = await fetch(source.url(word), fetchOptions);
+    const response = await fetch(source.url(word));
     
     if (response.ok) {
       const data = await response.json();

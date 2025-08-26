@@ -59,7 +59,7 @@ export default function WordTooltip({ word, isVisible, children }: WordTooltipPr
                           </div>
                           {def.example && (
                             <div className="text-gray-500 text-xs italic mt-1">
-                              "{def.example}"
+                              &quot;{def.example}&quot;
                             </div>
                           )}
                         </div>
